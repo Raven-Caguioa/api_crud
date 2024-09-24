@@ -49,11 +49,11 @@ class _CreateStudentScreenState extends State<CreateStudentScreen> {
                 DropdownButtonFormField<String>(
                   value: selectedCourse,
                   items: [
-                    'BSIT',
-                    'EDUC',
-                    'ACCOUNTANCY',
-                    'CRIM',
-                    'ENGR'
+                      'BSIT',
+                      'BSA',
+                      'BSN',
+                      'BSCPE',
+                      'BSED',
                   ].map((course) => DropdownMenuItem(value: course, child: Text(course))).toList(),
                   onChanged: (value) {
                     setState(() {

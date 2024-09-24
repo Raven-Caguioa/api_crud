@@ -69,10 +69,10 @@ class _StudentDetailScreenState extends State<StudentDetailScreen> {
                       value: selectedCourse,
                       items: [
                         'BSIT',
-                        'EDUC',
-                        'ACCOUNTANCY',
-                        'CRIM',
-                        'ENGR',
+                        'BSA',
+                        'BSN',
+                        'BSCPE',
+                        'BSED',
                       ].map((course) => DropdownMenuItem(value: course, child: Text(course))).toList(),
                       onChanged: (value) {
                         setState(() {
